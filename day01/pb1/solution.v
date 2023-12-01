@@ -17,7 +17,7 @@ fn main() {
 
 // Given a string, returns the array of all numbers in this string
 fn get_line_nums(line string) []rune {
-	nums := [`0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`]
+	nums := []rune{len: 10, init: index.str()[0]}
 	mut line_nums := []rune{}
 	for c in line {
 		if rune(c) in nums {
