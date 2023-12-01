@@ -4,7 +4,7 @@ import os
 
 fn main() {
 	// input_path := "./day01/pb1/test.txt"
-	input_path := "./day01/pb1/input.txt"
+	input_path := './day01/pb1/input.txt'
 
 	lines := os.read_lines(input_path) or { panic('Could not read input file.') }
 	mut sum := 0 // will contain the final result
@@ -12,7 +12,7 @@ fn main() {
 		line_nums := get_line_nums(line)
 		sum += get_line_number(line_nums)
 	}
-	println("Final result: ${sum}")
+	println('Final result: ${sum}')
 }
 
 // Given a string, returns the array of all numbers in this string
@@ -32,6 +32,6 @@ fn get_line_nums(line string) []rune {
 fn get_line_number(nums []rune) int {
 	// runes cannot be concatenated easily. So first cast to string, concatenate and cast to int.
 	mut res := rune(nums[0]).str()
-	res += rune(nums[nums.len-1]).str()
+	res += rune(nums[nums.len - 1]).str()
 	return res.int()
 }
