@@ -72,9 +72,13 @@ fn traverse_network(network []Node, sequence Sequence) int {
 			return res
 		} else {
 			if dir == 'L' {
-				current = network.get_node_by_name(current.left) or { panic('Could not find node named ${current.left}') }
+				current = network.get_node_by_name(current.left) or {
+					panic('Could not find node named ${current.left}')
+				}
 			} else {
-				current = network.get_node_by_name(current.right) or { panic('Could not find node named ${current.right}') }
+				current = network.get_node_by_name(current.right) or {
+					panic('Could not find node named ${current.right}')
+				}
 			}
 			res++
 		}
