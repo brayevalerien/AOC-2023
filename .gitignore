@@ -22,3 +22,7 @@ bin/
 # vweb and database
 *.db
 *.js
+
+# AOC inputs
+input.txt
+test*.txt

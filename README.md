@@ -7,13 +7,14 @@ Total progress:
 
 Progress for the days already available:
 
-![progress bar](https://geps.dev/progress/67)
+![progress bar](https://geps.dev/progress/56)
 
 ## How to run
 If you want to run the program for a specific day "XX" and a problem "Y" (1 or 2), use:
 ```bash
 v run ./dayXX/pbY/
 ```
+> Note: you will need to add the input file as `imput.txt` in the ./dayXX/pbY/ directory since I cannot provide the inputs on github as stated in the [AOC rules](https://adventofcode.com/2023/about).
 
 ## Content
 This repository contain one directory per day and each day contains two directories: one for each problem of the day (./dayXX/pbY/ for problem Y of day XX). For each problem, there are three files:
