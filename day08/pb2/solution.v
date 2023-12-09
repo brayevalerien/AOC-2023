@@ -112,12 +112,12 @@ fn array_lcm(nums []int) i64 {
 // Goes through the whole network using a sequence of directions and returns the number of steps taken
 fn traverse_network(network []Node, sequence Sequence) i64 {
 	mut paths := network.get_start_nodes()
+	mut lengths := []int{len: paths.len}
 	for i in 0 .. paths.len {
 		mut length := 0
 		for dir in sequence {
 			if paths[i].is_final() {
 				lengths[i] = length
-				println('      -> ${lengths[i]}') // debug
 				break
 			}
 			paths[i] = network.step(paths[i], dir)

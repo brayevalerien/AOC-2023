@@ -14,13 +14,10 @@ If you want to run the program for a specific day "XX" and a problem "Y" (1 or 2
 ```bash
 v run ./dayXX/pbY/
 ```
-> Note: you will need to add the input file as `imput.txt` in the ./dayXX/pbY/ directory since I cannot provide the inputs on github as stated in the [AOC rules](https://adventofcode.com/2023/about).
+> Note: you will need to add the input file as `input.txt` in the `./dayXX/pbY/` directory since I cannot provide the inputs on github as stated in the [AOC rules](https://adventofcode.com/2023/about).
 
 ## Content
-This repository contain one directory per day and each day contains two directories: one for each problem of the day (./dayXX/pbY/ for problem Y of day XX). For each problem, there are three files:
-1. solution.v: the program to solve the problem
-2. test.txt: test data that is usually provided in the problem statement
-3. input.txt: input data
+This repository contain one directory per day and each day contains two directories: one for each problem of the day (`./dayXX/pbY/` for problem Y of day XX).
 
 ## Useful links
 - [The V langage](https://github.com/vlang/v)
