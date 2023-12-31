@@ -6,6 +6,7 @@ AOC_2023
 *.so
 *.dylib
 *.dll
+*.gc.log
 
 # Ignore binary output folders
 bin/

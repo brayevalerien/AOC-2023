@@ -3,7 +3,7 @@ My solutions for the Advent of Code 2023, solved in [V](https://github.com/vlang
 
 Total progress:
 
-![progress bar](https://geps.dev/progress/30)
+![progress bar](https://geps.dev/progress/32)
 
 ## How to run
 If you want to run the program for a specific day "XX" and a problem "Y" (1 or 2), use:
